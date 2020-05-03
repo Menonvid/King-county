@@ -149,17 +149,25 @@ Price of house  =  beta0  +  beta1 * sqft_living  +  beta2 * bedrooms  +
 We estimated Model 1A, using linear least squares.
 
 
-3.4 Results
+Predicting house prices is quite complex and challenging because they depend on various factors such as Sqft living, No. of bathrooms, Grade of a house and Zipcode. The other factors that influence the price of a house are Distance to workplace, Renovation and Waterfront featu.
 
-We found empirical support for H1. Price depended on size, interior, quality, outer areas and location of house.
+While Modelling, we see that the Grade of a house, Zipcode and Bathrooms have large positive coefficients which indicate the effect they have on the pricing of a house.
+
+In Model 4, we have divided our data into continuous and categorical data. We then took a log of our continuous variables and then normalized it. We categorized our categorical data and added them into a data frame. We then run our OLS model and remove variables which have p>0.05. We again run our OLS model and get R2 score of 0.737. When checking for Normality, the QQ plot looks good too. The Homoscedasticity graph looks quite appropriate. We also checked for Multicollinearity, and see that the vif values were all under 5. Hence we will go with the Model 4.
+
+Our results indicate that in order to provide accurate predictions of house prices, a very large number of features must be used and that they most likely need to be combined with a powerful, complex and non-linear model.
 
 
 
-<h1>Recommendations</h1>
-The Production budget should be around 150 - 200 million USD.
-Make an Action, Adventure, Sci-Fi or Animation movie which are our best genres.
-The best season for the movies to release are during Summer or Spring.
-The film should be around 2-3 hours and 1-2 hours if Animation.
+<h1>Conclusion</h1>
+The average cost of a house in King County is about $540,297.
+
+Renovated houses seems to have higher price than non-renovated.
+
+Sqft area of a house, number of bathrooms, Grade and zipcode are important features while considering selling of a house.
+
+A house with waterfront feature also has higher price for a house.
+
 
 
 
