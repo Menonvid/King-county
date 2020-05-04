@@ -59,7 +59,7 @@ yr_renovated: Year when house was renovated
 
 The  R-squared value for our Model is 0.73; our model explains 73% of the variance.
 Main Factors that caused an increase in house price:
-The no. of bathrooms, sqft_living, grade, zipcode
+The no. of bathrooms, sqft_living, grade, zipcode.
 Location has a high impact on house price:
 Top 3 zip codes with a high price factor: 98039, 98004, 98040
 
