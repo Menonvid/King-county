@@ -67,7 +67,7 @@ Predicting house prices is quite complex and challenging because they depend on 
 
 While Modelling, we see that the Grade of a house, Zipcode and Bathrooms have large positive coefficients which indicate the effect they have on the pricing of a house.
 
-In Model 4, we have divided our data into continuous and categorical data. We then took a log of our continuous variables and then normalized it. We categorized our categorical data and added them into a data frame. We then run our OLS model and remove variables which have p>0.05. We again run our OLS model and get R2 score of 0.737. When checking for Normality, the QQ plot looks good too. The Homoscedasticity graph looks quite appropriate. We also checked for Multicollinearity, and see that the vif values were all under 5. Hence we will go with the Model 4.
+In Model 4, we have divided our data into continuous and categorical data. We then took a log of our continuous variables and then standardized it. We categorized our categorical data and added them into a data frame. We then run our OLS model and remove variables which have p>0.05. We again run our OLS model and get R2 score of 0.737. When checking for Normality, the QQ plot looks good too. The Homoscedasticity graph looks quite appropriate. We also checked for Multicollinearity, and see that the vif values were all under 5. Hence we will go with the Model 4.
 
 
 ## Conclusion
