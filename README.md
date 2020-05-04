@@ -18,7 +18,7 @@ Q4- How does the distance to a workplace effect the cost of a house?
 Q5- Does having a waterfront view effect the price of a house?
 
 
-##Data description:
+## Data description:
 King County Dataset: 21597 rows x 21 columns
 
 Categorical variables:
@@ -53,7 +53,7 @@ Exploratory Data Analysis:
 
 
 
-##Results from our Model:
+## Results from our Model:
 
 The  R-squared value for our Model was 0.73; our model explains 73% of the variance.
 Main Factors that caused an increase in house price:
@@ -80,7 +80,7 @@ Sqft area of a house, number of bathrooms, Grade and zipcode are important featu
 
 A house with waterfront feature also has higher price for a house.
 
-##Limitations & Further Research
+## Limitations & Further Research
 During the EDA, we came across lot of outliers in terms of prices and other features. We would like to investigate that data. Also, segment the houses into luxury houses and ordinary houses. Also take into consideration the amenities and the neighborhood of the locality that surely increase the price of a house.
 
 
