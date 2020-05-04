@@ -43,6 +43,9 @@ Long: longitude coordinate
 yr_built: Built Year  
 yr_renovated: Year when house was renovated  
 
+## Methodology
+
+![](data/OSEMN.png)
 
 ## Findings
 
