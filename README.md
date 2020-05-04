@@ -80,7 +80,7 @@ Sqft area of a house, number of bathrooms, Grade and zipcode are important featu
 A house with waterfront feature also has higher price for a house.  
 
 ## Limitations & Further Research
-During the EDA, we came across lot of outliers in terms of prices and other features. We would like to investigate that data. Also, segment the houses into luxury houses and ordinary houses. Also take into consideration the amenities and the neighborhood of the locality that surely increase the price of a house.
+During the EDA, we came across lot of outliers in terms of prices and other features. We would like to investigate that data. Also, segment the houses into luxury houses and ordinary houses. Also take into consideration the schools,amenities and the neighborhood of the locality that surely increase the price of a house.
 
 
 
